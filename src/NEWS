@@ -1,0 +1,16 @@
+Changes in 0.4.2
+================
+
+Bugs:
+- 1203849 added const qualifier to a lot of functions.
+
+Changes in 0.4.1
+================
+
+Support for CMPI Version 1.0.0.
+
+Changes in 0.4.0
+================
+
+Bugs:
+- 1199449 fixed compile problem in connection with a cmpi-base build problem.

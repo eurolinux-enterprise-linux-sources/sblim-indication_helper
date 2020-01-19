@@ -1,0 +1,28 @@
+2005-11-10    <mihajlov@dyn-9-152-141-53.boeblingen.de.ibm.com>
+
+	* ind_helper.c, ind_helper.h:
+	Bugs: 1203849 (side effect) made a lot of function arguments
+	const in order to remove the cmpi-base warnings.
+	
+2005-05-31    <mihajlov@dyn-9-152-141-53.boeblingen.de.ibm.com>
+
+	* test/Test_addProperty.c: 
+	* test/Test_all_functions.c: 
+	* test/Test_genIndication.c: 
+	* test/Test_genIndication_fail.c: 
+	* test/Test_reg_pollfnc3_threaded.c: 
+	* test/Test_reg_pollfnc3.c: 
+	* test/Test_reg_pollfnc2.c: 
+	* test/Test_reg_pollfnc.c: 
+	* ind_helper.h: 
+	* ind_helper.c:
+	In fact by Konrad: support for CMPI Version 1.00 and modified
+	IND_BEHAVIOUR to IND_BEHAVIOR
+
+2005-05-11    <mihajlov@dyn-9-152-141-53.boeblingen.de.ibm.com>
+
+	* ind_helper.h: replace CMPI_VER_nn macro by CMPI_VERSION
+
+	* configure.ac: removed -Werror flag as this leads to make distcheck
+	failure.
+
