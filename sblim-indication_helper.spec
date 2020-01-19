@@ -1,6 +1,6 @@
 Name:		sblim-indication_helper
 Version:	0.4.2
-Release:	10%{?dist}
+Release:	12%{?dist}
 Summary:	Toolkit for CMPI indication providers
 
 Group:		Development/Libraries
@@ -65,6 +65,12 @@ rm $RPM_BUILD_ROOT/%{_libdir}/libind_helper.la
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.4.2-12
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.2-11
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.4.2-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
